@@ -108,10 +108,3 @@ Approach: Clean Code, Pattern-Based, Interview-Oriented
 Let's prepare, collaborate, and grow together 🚀
 
 <div align="center">
-
-
-</div>
-⭐️ Support
-If this repository helps you, consider giving it a ⭐️. It motivates me to keep solving and sharing!
-
-<p align="center"> <i>“Every line of code is a step closer to the dream.”</i><br> <b>#DSAverse #GrindToGreatness #CodeWithClarity</b> </p> ```
