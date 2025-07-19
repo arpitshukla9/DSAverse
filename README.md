@@ -1,26 +1,31 @@
 <h1 align="center">🌌 DSAverse</h1>
-<p align="center">A curated universe of Data Structures & Algorithms, solved topic-wise with precision, patterns, and purpose.</p>
+<p align="center"><i>A curated universe of Data Structures & Algorithms, solved topic-wise with precision, patterns, and purpose.</i></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Level-Tier%203%20to%20Top%20Tech-blueviolet" />
   <img src="https://img.shields.io/badge/Language-Java-yellow" />
   <img src="https://img.shields.io/badge/Consistency-100%25-success" />
-  <img src="https://img.shields.io/github/last-commit/yourusername/DSAverse" />
+  <img src="https://img.shields.io/github/last-commit/9arpitshukla/DSAverse" />
 </p>
 
 ---
 
 ## ✨ Overview
 
-**DSAverse** is not just a problem set — it’s a structured galaxy of solutions.  
-Each problem is solved with focus on:  
-✅ Intuition → 🔍 Approach → ⏱ Complexity → 💡 Optimized code
+**DSAverse** isn’t just a collection — it’s a **mission log** of my journey to master DSA from the ground up.  
+Every problem here is dissected with clarity, solved with intent, and written with clean Java code.  
+Whether you're preparing for **FAANG**, **startups**, or aiming for solid foundations — this is your companion.
 
-Whether you're preparing for **FAANG, startups**, or building rock-solid logic, this repo documents the **grind, growth, and goal**.
+Each solution includes:
+
+- 🧠 Intuition & Thought Process  
+- 🔍 Step-by-Step Approach  
+- ⏱️ Time & Space Complexity  
+- 💻 Optimized Java Code with Explanations  
 
 ---
 
-## 🧭 Folder Structure
+## 🗂️ Folder Structure
 
 ```bash
 DSAverse/
@@ -52,69 +57,61 @@ DSAverse/
 ├── BitManipulation/
 │   └── SingleNumber.md
 └── README.md
-📁 Each topic folder contains Markdown files with:
+📁 Each topic folder contains well-documented .md files including:
 
-🧠 Problem breakdown
+Problem Statement
 
-📊 Time & Space complexity
+Input/Output Format
 
-💻 Java code with comments
+Logic & Intuition
 
-🔁 Optimized approach (if any)
+Java Code (with inline comments)
+
+Complexity Analysis
+
+Optimizations (if applicable)
 
 📚 Topics Covered
 ✅ Arrays & Maths
-
 ✅ Strings
-
 ✅ Linked Lists
-
 ✅ Trees & Graphs
-
 ✅ Stacks & Queues
-
 ✅ Recursion & Backtracking
-
-✅ Sliding Window
-
+✅ Sliding Window & Two Pointer
 ✅ Greedy
-
 ✅ Dynamic Programming
-
 ✅ Bit Manipulation
+✅ Hashing
+✅ Searching & Sorting
+✅ Heap / Priority Queue
 
-🔄 Continuous updates…
+🛠️ Tech Stack
+Language: Java
 
-🛠 Tech Stack
-💻 Language: Java
+Structure: Markdown + Folder-based organization
 
-📄 Format: Markdown
+Tools: Git, VS Code
 
-📂 Organized: Topic-wise folders
-
-🧠 Approach: Optimized & Interview-focused
+Approach: Clean Code, Pattern-Based, Interview-Oriented
 
 🎯 Goals
 📌 Solve 300+ core DSA problems before placement season
 
-🔁 Revise topics weekly and build strong patterns
+🔁 Weekly revision and pattern mastery
 
-✨ Help others with clean, readable solutions
+📈 Maintain topic-wise progress
 
-🔗 Connect with Me
-If you're also preparing or want to collaborate, let's connect:
+🤝 Share clean, readable solutions with the community
 
-🔗 Connect with Me
-Preparing together or need help? Let’s connect:
-
-💼 LinkedIn
+🌐 Connect with Me
+Let's prepare, collaborate, and grow together 🚀
 
 <div align="center">
 
 
 </div>
-
 ⭐️ Support
-If this repo helps you in your journey, do consider starring it. It keeps the grind going 🚀
+If this repository helps you, consider giving it a ⭐️. It motivates me to keep solving and sharing!
 
-<p align="center"> <b>“Every line of code is a step closer to the dream.”</b> </p> ```
+<p align="center"> <i>“Every line of code is a step closer to the dream.”</i><br> <b>#DSAverse #GrindToGreatness #CodeWithClarity</b> </p> ```
