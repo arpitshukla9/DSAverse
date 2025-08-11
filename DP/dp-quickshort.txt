@@ -1,0 +1,49 @@
+NOTES ON DP[Dynamic Programming]
+
+1. Definition: DP is a method for solving complex problems by breaking them down into simpler subproblems. 
+   It is applicable when the problem can be divided into overlapping subproblems that can be solved independently.
+
+2. Characteristics:
+   - Optimal Substructure: A problem exhibits optimal substructure if an optimal solution to the problem contains optimal solutions to its subproblems.
+   - Overlapping Subproblems: A problem exhibits overlapping subproblems if the same subproblems are solved multiple times.
+
+3. Approaches:
+   - Top-Down (Memoization): Solve the problem recursively and store the results of subproblems to avoid redundant computations.
+   - Bottom-Up (Tabulation): Solve the problem iteratively by building a table of solutions to subproblems.
+
+4. Common DP Problems:
+   - Fibonacci Sequence
+   - Knapsack Problem
+   - Longest Common Subsequence
+   - Coin Change Problem
+   - Matrix Chain Multiplication
+
+5. Tips for DP:
+   - Identify the subproblems and their relationships.
+   - Define the state and the decision to be made.
+   - Choose the appropriate approach (top-down or bottom-up).
+   - Optimize space complexity if needed (e.g., using rolling arrays).
+
+6. Time Complexity and Space Complexity:
+   - Time complexity depends on the number of subproblems and the time taken to solve each subproblem.
+   - Space complexity can be reduced by using iterative methods or storing only necessary states.
+
+7. Companies ask DP :
+   - Google
+   - Microsoft
+   - Amazon
+   - Facebook
+   - Adobe
+   - Apple
+   - Netflix
+   - Uber
+   - Salesforce
+   - Dropbox
+   - IBM
+   - Oracle
+   - Twitter
+   - LinkedIn
+   - Pinterest
+   - Snapchat
+   - TikTok
+   - Atlassian
