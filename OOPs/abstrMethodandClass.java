@@ -10,6 +10,7 @@ public class abstrMethodandClass {
 
 abstract class vehicle{
     public abstract int getNoOfWheels(); // only declaration
+    // also if class contain any abstract method then it should be abstract class
 }
 class Bus extends vehicle{
     // implementation
