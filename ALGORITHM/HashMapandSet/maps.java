@@ -1,55 +1,34 @@
 package ALGORITHM.HashMapandSet;
+import java.util.HashMap; 
 
-import java.util.HashSet; // HashSet -> Unordered collection that does not allow duplicate elements. It is based on the hash code of the elements and provides constant-time performance for basic operations like add, remove, and contains.
-import java.util.TreeSet;
+// HashMap -> A HashMap is a data structure that stores key-value pairs. 
+// It allows for fast retrieval of values based on their corresponding keys.
+// The keys in a HashMap are unique, and each key maps to a single value. 
+// HashMaps provide constant-time performance for basic operations like get and put, making them efficient for storing and retrieving data.
+
+// ---- SKELTON CODE FOR HASHMAP DEMO ----
+// HashMap<String (key), Integer (value)> map = new HashMap<>();
+// map.put("key1", value1);
+// map.put("key2", value2);
+// System.out.println(map.get("key1")); // Output: value1
 
 public class maps {
-
     public static void main(String[] args) {
-        int[] arr = {1, 2, 1, 10, 2, 3, 4, 5, 6, 6, 6};
-        HashSet<Integer> set = new HashSet<>();
-        System.out.println("==============================================================");
-        System.out.println("        HASHSET DEMO - DUPLICATE REMOVAL but unordered       ");
-        System.out.println("==============================================================");
-        System.out.println("Length of arr before insert to SET : " + arr.length);
-        System.out.println("--------------------------------------------------");
-        for (int i : arr) {
-            set.add(i);
-        }
-        System.out.println("Length of arr after insert to SET : " + set.size());
-        System.out.println("--------------------------------------------------");
-        System.out.println("Unique values in SET:");
-        for (int value : set) {
-            System.out.println("   -> " + value);
-        }
-        System.out.println("==============================================");
-        treeSet();
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("Alice", 30);
+        map.put("Bob", 25);
+        map.put("Charlie", 35);
+        System.out.println("Alice's age: " + map.get("Alice")); // Output: 30
+        System.out.println("Bob's age: " + map.get("Bob")); // Output: 25
+        System.out.println("Charlie's age: " + map.get("Charlie")); // Output:
 
+        System.out.println("=======================AB ITERATION KI BAARI=======================================");
+        // IMPORTANT -> HashMap me order maintain nhi hota isliye jab hum iterate krenge to order random hoga
+        // NOrmal for loop se iterate krne ke liye hume keySet() method ka use krna padega jo hume keys ki set provide karega aur fir hum get() method ka use krke us key ki value ko access kr sakte hai
+        // skelton code for iterating over HashMap
+
+        for (String key : map.keySet()) {
+            System.out.println("Key: " + key + ", Value: " + map.get(key));
+        }
     }
-    static void treeSet(){
-        //TREESET  -> DERIVE FROM Balanced BST
-        //-> A TreeSet is a sorted collection that does not allow duplicate elements. 
-        // It is based on a Red-Black tree and provides log(n) time complexity for basic operations like 
-        // add, remove, and contains. The elements in a TreeSet are stored in a sorted order, 
-        // which allows for efficient retrieval of the minimum and maximum elements.
-        TreeSet<Integer> treeSet = new TreeSet<>();
-        int[] arr = {1, 2, 1, 10, 2, 3, 4, 5, 6, 6, 6};
-        System.out.println("==============================================================");
-        System.out.println("        TREESET DEMO - DUPLICATE REMOVAL but ordered and sorted      ");
-        System.out.println("==============================================================");
-        System.out.println("Length of arr before insert to SET : " + arr.length);
-        System.out.println("--------------------------------------------------");
-        for (int i : arr) {
-            treeSet.add(i);
-        }
-        System.out.println("Length of arr after insert to SET : " + treeSet.size());
-        System.out.println("--------------------------------------------------");
-        System.out.println("Unique values in SET:");
-        for (int value : treeSet) {
-            System.out.println("   -> " + value);
-        }
-        System.out.println("==============================================");
-
-    }
-
 }
